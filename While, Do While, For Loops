@@ -1,0 +1,70 @@
+/*                                                                                                            
+88                        88                                                                               
+88                        88                                                 ,d     88                        
+88                        88                                                 88                                   
+88           8b,     ,d8  88,dPPYba,    ,adPPYba,  8b,dPPYba,  ,adPPYYba,  MM88MMM  88   ,adPPYba,   8b,dPPYba,   
+88            `Y8, ,8P'   88P'    "8a  a8P_____88  88P'   "Y8  ""     `Y8    88     88  a8"     "8a  88P'   `"8a  
+88              )888(     88       d8  8PP"""""""  88          ,adPPPPP88    88     88  8b       d8  88       88  
+88            ,d8" "8b,   88b,   ,a8"  "8b,   ,aa  88          88,    ,88    88,    88  "8a,   ,a8"  88       88  
+88888888888  8P'     `Y8  8Y"Ybbd8"'    `"Ybbd8"'  88          `"8bbdP"Y8    "Y888  88   `"YbbdP"'   88       88  
+================================================================================================================
+Java Loops / While Loops / Do While Loops / For Loops
+================================================================================================================
+*/
+public class LoopFun {
+
+	public static void main(String[] args) {
+    
+    int cnt = 0;
+    
+// 1) Using a while loop counting from 1 to 5 (Starting your loop cnt with 0)
+  cnt = 0;
+  while (cnt < 5) {
+    System.out.println(cnt + 1);
+    cnt ++;
+    }
+    
+// ==============================================================================================================
+    
+// 2) Using a while loop count from 5 to 1
+   cnt = 5;
+   while (cnt >= 1) {
+			System.out.println(cnt);
+			cnt--;
+		}
+    
+// ==============================================================================================================
+
+// 3) Using a Do while loop count from 1 to 5
+  cnt = 1;
+  do {
+    System.out.println(cnt);
+    cnt++;
+		}
+    while (cnt <= 5);
+    
+// ==============================================================================================================
+
+// 4) Using a Do while loop count backwards from 5 to 1
+  cnt = 5;
+  do {
+    System.out.println(cnt);
+    cnt--;
+    }
+		while (cnt >= 1 );
+
+// ==============================================================================================================
+
+// 5) Using a For loop count 1 to 5 but start i at 0
+  for (int i = 0; i <= 4; i++) {
+  System.out.println(i + 1);
+		}
+   
+// ==============================================================================================================
+
+// 6) Using  a For loop count 5 to 1 (use i)
+  for (int i = 5; i >= 1; i--) {
+  System.out.println(i);
+		}
+  }
+}
